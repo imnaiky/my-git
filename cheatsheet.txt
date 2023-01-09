@@ -1,0 +1,11 @@
+initialise repo
+	git init
+check .git file
+	ls -a
+add staging
+	git add filename
+	git add folder
+check status	
+	git status
+
+	
