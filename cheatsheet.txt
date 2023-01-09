@@ -1,0 +1,57 @@
+initialise repo
+	git init
+check .git file
+	ls -a
+add staging
+	git add filename
+	git add folder
+check status	
+	git status
+restore from staging
+	git restore --staged names.txt
+get the log
+	git log	
+reset
+	git reset <commithash>
+restore deleted file
+	git restore filename
+temp saving file
+	git stash
+link remote repo to local
+	Crate a github repo
+	goto code copy https url
+	use cmd:
+		git remote add origin <'url'>
+	to check the remote places linked
+	git remote -v
+
+push to remote
+	<git push place branchname>
+	git push origin master
+
+create a branch
+	git branch branchname
+move to branch
+	git checkout feature
+merge branch
+	git merge branchname
+inorder to make contribution
+	fork into your account
+	clone into local
+		git clone <url>
+add upstream url <original sourcecode branch>
+	git remote add upstream <url>
+	
+when working with issues/feature
+	-create a new branch
+	-associate same with pr
+	ONE PR for ONE BRANCH COMMITS
+	PR will not be auto added  if committing on second time for a different issues/feature with same branch
+	HENCE
+		-create new branch and then associate to another PR
+force push to remote repo : use case resetting to previous commit
+	git push origin branch -f
+		
+	
+	
+	
