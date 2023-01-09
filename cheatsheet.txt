@@ -7,5 +7,13 @@ add staging
 	git add folder
 check status	
 	git status
+restore from staging
+	git restore --staged names.txt
+get the log
+	git log	
+reset
+	git reset <commithash>
+restore deleted file
+	git restore filename
 
 	
