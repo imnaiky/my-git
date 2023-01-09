@@ -35,4 +35,10 @@ move to branch
 	git checkout feature
 merge branch
 	git merge branchname
+inorder to make contribution
+	fork into your account
+	clone into local
+		git clone <url>
+add upstream url <original sourcecode branch>
+	git remote add upstream <url>
 	
