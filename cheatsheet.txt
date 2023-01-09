@@ -15,5 +15,24 @@ reset
 	git reset <commithash>
 restore deleted file
 	git restore filename
+temp saving file
+	git stash
+link remote repo to local
+	Crate a github repo
+	goto code copy https url
+	use cmd:
+		git remote add origin <'url'>
+	to check the remote places linked
+	git remote -v
 
+push to remote
+	<git push place branchname>
+	git push origin master
+
+create a branch
+	git branch branchname
+move to branch
+	git checkout feature
+merge branch
+	git merge branchname
 	
